@@ -1,0 +1,16 @@
+C:\Github\GroupFourTest\GroupFour\Exercise1\bin\Debug\net5.0\Exercise1.exe
+C:\Github\GroupFourTest\GroupFour\Exercise1\bin\Debug\net5.0\Exercise1.deps.json
+C:\Github\GroupFourTest\GroupFour\Exercise1\bin\Debug\net5.0\Exercise1.runtimeconfig.json
+C:\Github\GroupFourTest\GroupFour\Exercise1\bin\Debug\net5.0\Exercise1.runtimeconfig.dev.json
+C:\Github\GroupFourTest\GroupFour\Exercise1\bin\Debug\net5.0\Exercise1.dll
+C:\Github\GroupFourTest\GroupFour\Exercise1\bin\Debug\net5.0\ref\Exercise1.dll
+C:\Github\GroupFourTest\GroupFour\Exercise1\bin\Debug\net5.0\Exercise1.pdb
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\Exercise1.csproj.AssemblyReference.cache
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\Exercise1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\Exercise1.AssemblyInfoInputs.cache
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\Exercise1.AssemblyInfo.cs
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\Exercise1.csproj.CoreCompileInputs.cache
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\Exercise1.dll
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\ref\Exercise1.dll
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\Exercise1.pdb
+C:\Github\GroupFourTest\GroupFour\Exercise1\obj\Debug\net5.0\Exercise1.genruntimeconfig.cache

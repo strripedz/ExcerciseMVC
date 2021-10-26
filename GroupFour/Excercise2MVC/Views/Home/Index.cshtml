@@ -1,0 +1,58 @@
+@using Excercise2MVC.Models
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Books List</h2>
+
+<div>
+    <h1>Search</h1>
+    <p>Please enter a book name</p>
+    @using (Html.BeginForm("Search", "Home", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <input type="text" id="nameToFind" name="nameToFind">
+        <button type="submit">Search</button>
+    }
+</div>
+<div>
+    <hr />
+    <br />
+    <h1>List of available books</h1>
+    @(Html.DevExtreme().DataGrid<Book>()
+                .ShowBorders(true)
+                .ID("bookListGrid")
+                .DataSource(d => d.WebApi().Controller("Books").Key("BookID"))
+                .Columns(columns =>
+                {
+                    columns.AddFor(m => m.BookID);
+                    columns.AddFor(m => m.BookName);
+                    columns.AddFor(m => m.CustomerID);
+                    columns.AddFor(m => m.ReserveStatus);
+                })
+                .Paging(p => p.PageSize(10))
+                .HeaderFilter(f => f.Visible(true))
+                .Grouping(g => g.AutoExpandAll(false))
+                .RemoteOperations(true)
+                .Summary(s => s
+                    .TotalItems(totalItems =>
+                    {
+                        totalItems.AddFor(m => m.BookID).SummaryType(SummaryType.Count);
+                    })
+                    .GroupItems(groupItems =>
+                    {
+                        groupItems.Add().SummaryType(SummaryType.Count);
+                    })
+                )
+    )
+</div>
+
+<div>
+    <br />
+    @using (Html.BeginForm("Reset", "Home", FormMethod.Post))
+    {
+        <button type="submit">Reset List</button>
+    }
+    <p>Copyright Kevin Everil</p>
+</div>

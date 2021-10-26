@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Search Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model Excercise2MVC.Models.Book
+
+<h2>Search Result</h2>
+<br />
+<p>Name: @Model.BookName</p>
+<p>Book ID: @Model.BookID</p>
+@if (Model.ReserveStatus)
+{
+    <p>Book Status: Not Available</p>
+}
+else
+{
+    <p>Book status: Available</p>
+}
+<hr />
+<br />
+@using (Html.BeginForm("Reserve", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <!--Display button only if the book has not been reserved-->
+    if (!Model.ReserveStatus)
+    {
+        <p>Would you like to reserve the book? If yes, please enter your name below:</p>
+        @Html.HiddenFor(model => model.BookID, new { Value = Model.BookID })
+        <input type="text" id="customerID" name="customerID">
+        <button type="submit">Reserve</button>
+        @Html.ActionLink("Back to Home", "Index")
+    }
+    else
+    {
+        <p>This book is currently reserved for: @Model.CustomerID, under booking number: @Model.BookingNo</p>
+        @Html.ActionLink("Back to Home", "Index")
+    }
+}
+<br />

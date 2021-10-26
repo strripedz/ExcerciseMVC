@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model Excercise2MVC.Models.Book
+
+<h1>Success!</h1>
+<p>Congratulations, you have reserved </p>
+<p>Your Booking Number is: @TempData["BookingNumber"] </p>
+
+@Html.ActionLink("Back to Home", "Index")
+

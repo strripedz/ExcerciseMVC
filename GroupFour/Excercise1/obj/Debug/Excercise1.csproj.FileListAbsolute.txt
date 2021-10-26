@@ -1,0 +1,6 @@
+C:\Github\GroupFourTest\GroupFour\Excercise1\bin\Debug\Excercise1.exe.config
+C:\Github\GroupFourTest\GroupFour\Excercise1\bin\Debug\Excercise1.exe
+C:\Github\GroupFourTest\GroupFour\Excercise1\bin\Debug\Excercise1.pdb
+C:\Github\GroupFourTest\GroupFour\Excercise1\obj\Debug\Excercise1.csproj.CoreCompileInputs.cache
+C:\Github\GroupFourTest\GroupFour\Excercise1\obj\Debug\Excercise1.exe
+C:\Github\GroupFourTest\GroupFour\Excercise1\obj\Debug\Excercise1.pdb

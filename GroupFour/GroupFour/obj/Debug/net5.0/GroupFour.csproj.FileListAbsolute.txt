@@ -1,0 +1,12 @@
+C:\Github\GroupFourTest\GroupFour\GroupFour\bin\Debug\net5.0\GroupFour.deps.json
+C:\Github\GroupFourTest\GroupFour\GroupFour\bin\Debug\net5.0\GroupFour.dll
+C:\Github\GroupFourTest\GroupFour\GroupFour\bin\Debug\net5.0\ref\GroupFour.dll
+C:\Github\GroupFourTest\GroupFour\GroupFour\bin\Debug\net5.0\GroupFour.pdb
+C:\Github\GroupFourTest\GroupFour\GroupFour\obj\Debug\net5.0\GroupFour.csproj.AssemblyReference.cache
+C:\Github\GroupFourTest\GroupFour\GroupFour\obj\Debug\net5.0\GroupFour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\GroupFourTest\GroupFour\GroupFour\obj\Debug\net5.0\GroupFour.AssemblyInfoInputs.cache
+C:\Github\GroupFourTest\GroupFour\GroupFour\obj\Debug\net5.0\GroupFour.AssemblyInfo.cs
+C:\Github\GroupFourTest\GroupFour\GroupFour\obj\Debug\net5.0\GroupFour.csproj.CoreCompileInputs.cache
+C:\Github\GroupFourTest\GroupFour\GroupFour\obj\Debug\net5.0\GroupFour.dll
+C:\Github\GroupFourTest\GroupFour\GroupFour\obj\Debug\net5.0\ref\GroupFour.dll
+C:\Github\GroupFourTest\GroupFour\GroupFour\obj\Debug\net5.0\GroupFour.pdb
